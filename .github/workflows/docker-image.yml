@@ -24,4 +24,4 @@ jobs:
           registry: https://index.docker.io/v1/
 
       - name: Build Docker image
-        run: docker buildx build -t i202426@nu.edu.pk/mlops_task3 --push .
+        run: docker buildx build -t fajrzafar/mlops_task3 --push .
